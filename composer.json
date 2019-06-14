@@ -10,7 +10,6 @@
             "email": "shabbir@innotec.co.uk"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.1.8 || ^8.0"
     },
