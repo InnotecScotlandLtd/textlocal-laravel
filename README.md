@@ -10,12 +10,12 @@ A package for Text Local. [https://innotec.co.uk]
 ### Require the package
 
 ```
-$ composer require InnotecScotlandLtd/textlocal-laravel
+$ composer require innotecscotlandltd/textlocal-laravel
 ```
 ```json
 {
     "require": {
-        "InnotecScotlandLtd/textlocal-laravel": "dev-master"
+        "innotecscotlandltd/textlocal-laravel": "dev-master"
     }
 }
 ```
