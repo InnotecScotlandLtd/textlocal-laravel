@@ -1,0 +1,38 @@
+{
+    "name": "innotec/textlocal-laravel",
+    "description": "Test",
+    "type": "library",
+    "homepage": "https://innotec.co.uk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shabbir Bharmal",
+            "email": "shabbir@innotec.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.8 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TextLocal\\": "src/TextLocal/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TextLocal\\Laravel\\ServiceProvider"
+            ]
+        }
+    }
+}
