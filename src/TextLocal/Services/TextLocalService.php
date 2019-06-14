@@ -6,7 +6,7 @@
  * file that was distributed with this source code.
  */
 
-namespace TextLocal\Services;
+namespace InnotecScotlandLtd\TextLocal\Services;
 
 use InvalidArgumentException;
 

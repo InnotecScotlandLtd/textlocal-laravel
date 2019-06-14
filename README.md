@@ -21,9 +21,17 @@ $ composer require innotecscotlandltd/textlocal-laravel
 ```
 Put this as psr4 in main composer.json
 ```
-"TextLocal\\": "packages/innotec/textlocal-laravel/src/"
+"TextLocal\\": "path-to-package/textlocal-laravel/src/"
 ```
-
+Put this as repositories object
+```
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/InnotecScotlandLtd/textlocal-laravel"
+    }
+  ],
+```
 Add the Service Provider to your config/app.php under providers
 
 ```

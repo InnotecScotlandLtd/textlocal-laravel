@@ -1,6 +1,6 @@
 <?php
 
-namespace TextLocal;
+namespace InnotecScotlandLtd\TextLocal;
 
 use Closure;
 use InvalidArgumentException;

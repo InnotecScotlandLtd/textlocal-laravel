@@ -1,6 +1,6 @@
 <?php
 
-namespace TextLocal\Providers;
+namespace InnotecScotlandLtd\TextLocal\Providers;
 use Illuminate\Support\ServiceProvider;
 
 
