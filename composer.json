@@ -1,6 +1,6 @@
 {
-    "name": "innotec/textlocal-laravel",
-    "description": "Test",
+    "name": "InnotecScotlandLtd/textlocal-laravel",
+    "description": "Package which can allow user to send Text.",
     "type": "library",
     "homepage": "https://innotec.co.uk",
     "license": "MIT",
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TextLocal\\Laravel\\ServiceProvider"
+                "TextLocal\\Providers\\TextLocalServiceProvider"
             ]
         }
     }
